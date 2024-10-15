@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.superdesigngirl.mauipushnotificationsdemo" android:versionCode="1" android:versionName="0.0.1">
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="MauiPushNotify">
 		<meta-data android:name="google_analytics_default_allow_analytics_storage" android:value="true" />
 		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
 		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
@@ -15,5 +15,5 @@
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
-	<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 </manifest>
